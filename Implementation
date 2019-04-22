@@ -1,0 +1,42 @@
+System Implementation
+Offline search engine system aims at providing users with Text Documents that is rele-
+vant in terms of their interest. Text Mining and Information Retrieval mechanism involving
+NLTK based Preprocessing and extraction of documents are used for this purpose.
+6.1
+Platform and Tools
+The development of this project was done in linux environment. It can run on Linux,
+Windows and Macintosh systems. We use Pycharm as the code editor during development.
+Platform
+System - Linux is preferred for its Unix-like operating system that was designed to provide
+personal computer users a free or very low-cost operating system comparable to traditional
+and usually more expensive Unix systems. Linux has a reputation as a very efficient and
+fast-performing system.
+Web Server Apache is the most widely used web server software. Developed and main-
+tained by Apache Software Foundation, Apache is an open source software available for free.
+It is fast, reliable, and secure. It can be highly customized to meet the needs of many dif-
+ferent environments by using extensions and modules.
+Tools
+The code for calculating the frequency of the word or word-pair(Query),keyword rec-
+ommendation are all implemented using Python. Python provides extensive set of libraries
+
+and packages for data mining functionalities which enabled us to develop the project with
+great ease.
+Python libraries included are:-
+• re For regular expression
+• nltk (Natural Language Toolkit) For cleaning and pre-processing textual content.
+Wordnet was available as a part of nltk
+• random Generate pseudo-random numbers
+• operator Standard operators as functions
+Django - Django web framework is written on the quick and powerful Python language.
+Python works on any platform and is also open source. Django very well reduced the
+complexities from a web application, giving it a more simplified approach.
+jQuery - It is to make it much easier to use JavaScript on your website.jQuery takes a lot
+of common tasks that require many lines of JavaScript code to accomplish, and wraps them
+into methods that you can call with a single line of code.jQuery also simplifies a lot of the
+complicated things from JavaScript, like AJAX calls and DOM manipulation.The jQuery
+library contains the following features: HTML/DOM manipulation,CSS manipulation
+CSS3 - For most of the designing part of the website, CSS3, bootstrap have been used.
+These are modern tools with intuitive benefits and features.
+HTML5- It is the latest version of HTML which facilitates addition of various new tags
+for adding multimedia objects into the web page. This allows the developer to make the web
+page more intuitive, dynamic and user friendly.
