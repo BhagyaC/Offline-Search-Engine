@@ -1,0 +1,58 @@
+System analysis is the process of gathering and interpreting facts, diagnos-
+ing problems and using the information to recommend improvements on the
+system. System analysis is a problem solving activity that requires intensive
+communication between the system users and system developers. System
+analysis or study is an important phase of any system development process.
+The system is studied to the minutest detail and analyzed. The system an-
+alyst plays the role of an interrogator and dwells deep into the working of
+the present system. The system is viewed as a whole and the inputs to the
+system are identified. The outputs from the organization are traced through
+the various processing that the inputs phase through in the organization.
+
+Existing System
+Search engines provide some popular ways of finding information on the
+Internet. There is a wide variety of search engines and features. Some search
+engines are on specific websites, allowing visitors to the site to search for spe-
+cific words or phrases. Others are broader in scope.An Internet search can
+generate a variety of sources for information. Results from online encyclo-
+pedias, news stories, university studies, discussion boards, and even personal
+blogs can come up in a basic Internet search. This variety allows anyone
+searching for information to choose the types of sources they would like to
+use, or to use a variety of sources to gain a greater understanding of a sub-
+ject. A Search engine is an index of websites. Search engines are created
+by software called ‘spiders’ or ‘web crawlers’. They randomly select web
+pages to include in the index. Search engines are larger than Subject Direc-
+tories, but still only cover a small proportion of the Internet. They generally
+
+cannot index information held in databases contained on web pages.Sites are
+randomly selected and indexed for keywords by software. They are not evalu-
+ated for quality or relevance.Need to be very specific when selecting keywords
+as there are so many web pages.Search can result in far too many results to
+check.Results may not be arranged in relevant order. See section on ranking
+for more information. You may find the most useful site at the end of the list.
+You may also find irrelevant sites.More over an active internet connection is
+always needed.
+
+Proposed System
+If once we can access the internet the data that can store as offline is
+very large.So the document extraction concept have to spread into the offline
+data also.Text Mining and Natural language processing is one of the best
+solution for that.After the advent of big data, the major challenge is that
+we need more people who are good with not just structured, but also with
+semi or unstructured data. We are generating petabytes of Weblogs, tweets,
+Facebook feeds, chats, e-mails, and reviews. Companies are collecting all
+these different kind of data for better customer targeting and meaningful
+insights. To process all these unstructured data source we need people who
+understand NLP. We are in the age of information; we can’t even imagine
+our life without Google. We use Siri for the most of basic stuff. We use
+spam filters for filtering spam emails. We need spell checker on our Word
+document. There are many examples of real world NLP applications around
+us.
+Text Mining is used to identify the relevant information in the doc-
+ument directory which matches user’s query.Text is considered to be com-
+posed of two important units in Text Mining and Information Retrieval Sys-
+tem,specifically the document such as book, magazine paper, chapters, sec-
+tions, paragraphs, web pages, computer source codes and so on, and the term
+corresponding to the word, word pair, and phrase within a document.The doc-
+ument with higher word frequency will pop out first.And a suggestion based
+on the most frequent words in the search result will be provided
