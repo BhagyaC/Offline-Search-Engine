@@ -1,0 +1,99 @@
+Survey on Text Mining
+Eighty percent of the information in the world is currently stored in
+unstructured textual format (Kalogeratos and Likas, 2011).Although tech-
+niques such as Natural Language Processing (NLP) can accomplish limited
+text analysis, there are currently no computer programs available to anal-
+yse and interpret text for diverse information extraction needs. Therefore
+text mining is a dynamic and emerging area.The world is fast becoming in-
+formation intensive, in which specialized information is being collected into
+very large data sets. For example,extraction of information from Chinese
+handwritten documents (Koo and Cho, 2012). And problems involving large
+data sets include searching for targeted information from scientific citation
+databases such as Institute of Electrical and Electronics Engineers (IEEE),
+Association for Computing Machinery (ACM), Elseveirs scopus (SCOPUS)
+search,filter and categorize web pages by topic (Dimopoulos et al., 2010) and
+routing relevant email to the appropriate addresses. A particular problem
+of interest here is that of classifying documents into a set of user defined
+categories based on the content. Thus, as the document size increases, the
+dimension of the hyperspace in which text classification is done becomes
+enormous, resulting in high computational cost (Luo et al, 2009).However,
+the dimensionality can be reduced through feature extraction algorithms.
+Topic summarization (Forestier et al, 2010) in terms of content coverage, co-
+herence, and consistency, the summaries are superior to those derived from
+existing summarization methods based on human-composed reference sum-
+
+maries. Text mining is the automatic and semi-automatic extraction of im-
+plicit, previously unknown, and potentially useful information and patterns,
+from a large amount of unstructured textual data, such as natural-language
+texts. In text mining, each document is represented as a vector, whose di-
+mension is approximately the number of distinct keywords in it, which can
+be very large. One of the main challenges in text mining is to classify textual
+data with such high dimensionality (Song et al, 2013).In addition to high
+dimensionality, text-mining algorithms should also deal with word ambigui-
+ties such as pronouns, synonyms,noisy data, spelling mistakes, abbreviations,
+acronyms and improperly structured text. Text mining algorithms are two
+types: Supervised learning and unsupervised learning. In addition to super-
+vised and unsupervised learning a Meta learning approach is also applied to
+optimization (Kordik et al, 2010).Text collections contain millions of unique
+terms, which make the text - mining process difficult. Therefore, feature-
+extraction is used when applying machine learning methods. A feature is a
+combination of attributes (keywords), which captures important characteris-
+tics of the data. A feature extraction method creates a new set of features
+far smaller than the number of original attributes by decomposing the orig-
+inal data. Therefore it enhances the speed of supervised learning. In text
+documents, two important aspects are Term weight and Similarity measure
+(Zhang et al, 2012). In text mining each document is represented as a vec-
+tor. The elements in the vector reflect the frequency of terms in documents,
+and each word is a dimension and documents are vectors. Each word in a
+document has weights. These weights can be of two types: Local and global
+weights. If local weights are used, then term weights are normally expressed
+as term frequencies (TF).If global weights are used, Inverse Document Fre-
+quency (IDF), IDF values, gives the weight of a term. It is possible to do
+better term weighing by multiplying tf values with IDF values, by considering
+local and global information. Therefore total weight of a term = tf * IDF.
+This is commonly referred to as, tf * IDF weighting.
+
+Review of Research Work in Information Retrieval and NLTK
+Information retrieval (IR) is concerned with searching and retrieving doc-
+uments, information within documents, and metadata about documents. It
+is also called document retrieval or text retrieval. IR concerns with retriev-
+ing documents that are necessary for the users information.This process is
+carried out in two stages [Jun and Jianhan, 2009]. The first stage involves
+the calculation of the relevance between given user information need and
+the documents in the collection. In this stage probabilistic retrieval models
+that have been proposed and tested over decades are used for calculating the
+relevance to produce a best guess at a documents relevance. In the second
+stage the documents are ranked and presented to the user. In this stage the
+probability ranking principle (PRP) [Cooper, 1971] is used. According to
+this principle the system should rank documents in order of decreasing prob-
+ability of relevance. By using this principle the overall effectiveness of an IR
+system maximizes.There has been a lot of research in the field of information
+retrieval. NLTK is used by many researchers all over the world. In Python
+as a Vehicle for Teaching Natural Language Processing , the author who her-
+self is a professor at Northern Illinois University, Department of Computer
+Science has described her experience of using NLP as a teaching tool to stu-
+dents with no previous background and the stepwise approach she developed
+as a result in order to acquaint students with NLTK in python. She has
+chosen Python specifically as it enables students to have a tiny taste of func-
+tional programming, which is supposed to improve their programming style
+and throughput. Similarly in Teaching NLP to Computer Science Majors
+via Applications and Experiments, Proceedings of the Third Workshop on
+Issues in Teaching Computational Linguistics she described a syllabus for In-
+troduction to NLP that concentrates on applications and motivates concepts
+through student experiments. In paper NLTK-Lite: Efficient Scripting for
+Natural Language Processing and NLTK: The Natural Language Toolkit,
+the author depicted the reason of selecting Python to be used for writing
+scripts to perform natural language processing tasks as it is a convenient
+language and NLTK-Lite as it provides ready access to standard corpora,
+along with representations for common linguistic data structures, reference
+implementations for many NLP tasks, and extensive documentation includ-
+
+ing tutorials and library reference. The author described the importance of
+Natural Language Toolkit for Computational Linguistics and also gave the
+idea of using NLTK as a training complex and a ready analytical tool for
+the development of applied text processing systems. NLTK is also integrated
+with Word Net, which is a database of semantic relationships for English
+nouns, verbs, adjectives and adverbs and also provides a detailed manual for
+beginners [5]. The Implementation of part of speech tagger for NLTK by
+using entropy method was also included in [6]. The authors described the
+tagging method used for replacing any of the NLTK taggers and the entropy
