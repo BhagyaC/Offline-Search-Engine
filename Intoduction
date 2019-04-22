@@ -1,0 +1,39 @@
+Introduction
+Text Mining is the process of deriving high-quality information from
+text. High-quality information is typically derived through the devising of
+patterns and trends through means such as statistical pattern learning. Text
+mining usually involves the process of structuring the input text (usually
+parsing, along with the addition of some derived linguistic features and the
+removal of others, and subsequent insertion into a database), deriving pat-
+terns within the structured data, and finally evaluation and interpretation of
+the output. ’High quality’ in text mining usually refers to some combination
+of relevance, novelty, and interestingness. Typical text mining tasks include
+text categorization, text clustering, concept/entity extraction, production of
+granular taxonomies, sentiment analysis, document summarization, and en-
+tity relation modeling (i.e., learning relations between named entities).The
+proposed system is used to identify the relevant information in the document
+directory which matches user’s query.Text is considered to be composed of
+two important units in Text Mining System,specifically the document such
+as book, magazine paper, chapters, sections, paragraphs, web pages, com-
+puter source codes and so on, and the term corresponding to the word, word
+pair, and phrase within a document. NLTK is a leading platform for building
+Python programs to work with human language data. It provides easy-to-use
+interface to over 50 corpora and lexical resources such as WordNet along with
+suite of text processing libraries for classification, tokenization, stemming,
+tagging, parsing, and semantic reasoning, wrappers for industrial strength
+NLP libraries, and an active discussion forum.
+Search Engine -Text Min-
+ing using Python and NLTK must perform well on offline text documents in
+the document directory. Search Engine provides an efficient means of search-
+1Introduction
+Page 2
+ing this large quantity of text for relevant linguistic examples. The main
+advantage of Search Engine is size: since you are searching such a large set of
+document, you are more likely to find any linguistic pattern you are interested
+in, further more you can make use of very specific pattern. Second advantage
+is that they are very easy-to-use. The search engine contain a corpora the
+large set of document which undergoes set of process like tokanization-which
+divide raw text to tokens,Normalisation -remove upper case and capital let-
+ter then stemming and lemmatization on affixes.This cleaned data undergoes
+word search while querying.The documents get ranked on the basis of the
+higher count of the search word.And retrieved the documents accordin
