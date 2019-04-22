@@ -1,0 +1,41 @@
+Future Scope
+Sentiment Analysis :
+entiment analysis or sentiment generation is one of the tasks in NLP. It is defined as the
+process of determining the sentiments behind a character sequence. It may be used to
+determine whether the speaker or the person expressing the textual thoughts is in a happy
+or sad mood, or it represents a neutral expression.
+Discourse analysis :
+It is another one of the applications of Natural Language Processing. Discourse analysis may
+be defined as the process of determining contextual information that is useful for performing
+other tasks, such as anaphora resolution (AR)
+Information retrieval:
+It may be defined as the process of retrieving the most suitable information as a response to
+the query being made by the user. In information retrieval, the search is performed based
+on metadata or context-based indexing. One example of information retrieval is Google
+Search in which, corresponding to each user query, a response is provided on the basis of
+the information retrieval algorithm being used. An indexing mechanism is used by the
+information retrieval algorithm. The indexing mechanism used is known as an inverted
+index. An IR system builds an index postlist to perform the information retrieval task.
+Include More dataset Types:
+currently the system is working on text documents only,and we can extend it to more types
+like pdf,csv,html etc
+
+Conclusion
+The project aims providing users with Text Documents that is relevant in terms of their
+interest. The . Authorized admin uploads text documents and process the text document
+using Text Mining and Information Retrieval mechanism involving NLTK based Preprocess-
+ing .According to the user query documents are displayed and most frequents word in the
+documents show as recommended keywords. All the nltk modules for Text Mining have
+been successfully implemented and result obtained. The Offline Search Engine using Text
+Mining by NLTK and Python can substantially improve the way utilizing the vast offline
+data in a different manner. The model is now implemented on offline data of a system and
+can be extended to smart phone platforms so that the available offline data can be utilized
+in an efficient way. Society are in the age of information; They can’t even imagine our life
+without Google. We use Siri for the most of basic stuff. We use spam filters for filtering
+spam emails. They need spell checker on our Word document. There are many examples of
+real world NLP applications around us.So have Implement more NLP concepts like Informa-
+tion retrieval which can understand what really user wants and improve the flexibility of the
+system.The modification of our system can implement it to some extend.Evaluation of NLP
+systems is done so as to analyze whether the output given by the NLP systems is similar to
+the one expected from the human output. If errors in the module are identified at an early
+stage, then the cost of correcting the NLP system is reduced to quite an extent.
