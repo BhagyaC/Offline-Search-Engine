@@ -1,0 +1,97 @@
+Purpose
+The purpose of this project is to implement Text Mining using Python
+and NLTK employ an offline search engine on directory of text documents.
+After the advent of big data, the major challenge is that we need more people
+who are good with not just structured, but also with semi or unstructured
+data. We are generating petabytes of Weblogs, tweets, Facebook feeds, chats,
+e-mails, and reviews. Offline search engine is used to identify the relevant
+information in the document directory which matches user’s query.Text is
+such as book, magazine paper, chapters, sections, paragraphs, web pages,
+computer source codes and so on, and the term corresponding to the word,
+word pair, and phrase within a document.The document with word frequency
+will be ranked and thee one with higher frequency will be displayed .And a
+suggestion based on the other most frequent words in the search result will
+be provided at the page itself
+
+Project Overview
+The project has following functionalities:
+• Admin Login:For authentication only authorized person will be allowded
+to upload the text documents to the directory
+• Text Uploading:The collected offline data uploaded to the directory on
+which the text mining will be execute
+• Word Search: Word or Word-Pair will be searched in the cleaned data
+• Data Preprocessing and Corpus creation: Processing of data including
+tokenization,Normalization,stemming,lemmatization etc
+• Filtering text documents: Filtering of text documents on the basis of the
+search keywords and the documents with higher frequency of the query
+word will be displayed
+• Recommendation: Recommendation of keywords according to the most
+frequent words from the first result of search for the next search
+Functional Requirements
+• Admin Login
+Purpose: To authenticate into the upload page and admin can upload
+data to the text data directory
+Actor: Admin
+Input: Admin ID
+Output: Access to the upload page
+• Upload Documents
+Purpose: Admin select offline text documents and upload it to the text
+data directory
+Actor: Admin
+Input: Text Documents
+Output: Text documents will be stored in the Text Document Directory
+
+• Data Preprocessing
+Purpose: To clean the entire text document and to make a corpus through
+series of process like Tokenization,Normalization,stemming,lemmatization
+Actor: System
+Input: Text Documents in Text Document Directory
+Output: Cleaned data called corpus
+Figure 4.1: Data Preprocessing
+• Word Search
+Purpose: Word or Word-Pair will be searched in the cleaned data called
+corpus
+Actor: User
+Input: Word or Word-Pair for Searching(Query)
+Output: The Text document will be ranked on the basis of frequency of
+searched word(Query)
+• Diplaying the Text Documents
+Purpose: Display the Text Document having the highest frequency of the
+query
+D
+Actor: System
+Input: Ranked list of text document on the basis of the frequency of the
+searched word(Query)
+Output: Text documents having the higher word frequency
+• Keyword recommendation
+Purpose: To recommend Keywords for further search based on the text
+document extracted on the previous search
+Actor: System
+Input: The list of word frequencies in the resulted Text Document in the
+last search
+Output: Recommended 5 Keywords will be displayed
+Non Functional Requirements
+1. Performance Requirements
+Admin should be verified before uploading Text documents. Test cases
+corresponding to each query must be present in the Text Document Di-
+rectory .
+2. Safety Requirements
+The system must not be damaged or manipulated by unauthorized access
+to the Text Document Directory.
+3. Security Requirements
+The Admin information should not be accessed by others and the pass-
+word needs to be encrypted in the code.
+
+Hardware and Software Requirements
+Hardware Interface
+• Client Side:
+Browser: Chrome version 50.x and higher
+Processor: Intel Pentium IV and higher
+RAM: 512 MB
+• Server side: Intel Core i3 and higher
+RAM: 1 GB
+Software Requirements
+• Front end: HTML, Django, CSS
+• Back end: Python,NLTK
+• Operating System: Ubuntu, Windows, MAC
+• Local server: Apache Server
