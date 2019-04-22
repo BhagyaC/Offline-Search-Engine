@@ -25,8 +25,7 @@ NLP libraries, and an active discussion forum.
 Search Engine -Text Min-
 ing using Python and NLTK must perform well on offline text documents in
 the document directory. Search Engine provides an efficient means of search-
-1Introduction
-Page 2
+
 ing this large quantity of text for relevant linguistic examples. The main
 advantage of Search Engine is size: since you are searching such a large set of
 document, you are more likely to find any linguistic pattern you are interested
@@ -36,4 +35,4 @@ large set of document which undergoes set of process like tokanization-which
 divide raw text to tokens,Normalisation -remove upper case and capital let-
 ter then stemming and lemmatization on affixes.This cleaned data undergoes
 word search while querying.The documents get ranked on the basis of the
-higher count of the search word.And retrieved the documents accordin
+higher count of the search word.And retrieved the documents accordingly
